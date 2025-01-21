@@ -19,7 +19,7 @@ const Hero = () => {
 
       <motion.h1
       variants={slideUpVariants}
-      className="text-yellow-500 text-2xl"
+      className="text-green-800 text-2xl"
       >
         Guichay Building
       </motion.h1>
@@ -31,7 +31,7 @@ const Hero = () => {
         We will build your dream property!
       </motion.h1>
 
-      <div className='w-[120-px] h-[6px] bg-yellow-500'>---------------</div>
+      <div className='w-[120px] h-[6px] bg-green-800'></div>
       <p className='text-white text-[20px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
       Dolores obcaecati facilis voluptas, officia ullam ipsam culpa debitis 
       similique! Reiciendis dolor iusto error sunt cum corrupti aspernatur! 
@@ -45,13 +45,13 @@ const Hero = () => {
       >
         <motion.button
         variants={zoomInVariants}
-        className='bg-yellow-500 hover:bg-white hover:text-black px-10 py-3 rounded-lg
+        className='bg-green-800 hover:bg-white hover:text-black px-10 py-3 rounded-lg
         text-black font-bold'>
           READ MORE
         </motion.button>
         <motion.button
         variants={zoomInVariants}
-        className='border-white hover:border-yellow-500 hover:text-yellow-500
+        className='border-white hover:border-green-800 hover:text-green-800
         border-2 px-10 py-3 rounded-lg text-white font-bold'
         >
           REACH US

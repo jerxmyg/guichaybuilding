@@ -13,7 +13,7 @@ const About = () => {
       className='lg:w-[60%] w-full flex flex-col justify-center items-start gap-6'
       >
         <motion.h1
-        variants={slideUpVariants} className='text-yellow-500 text-2xl'>
+        variants={slideUpVariants} className='text-green-800 text-2xl'>
           WELCOME TO
 
         </motion.h1>
@@ -23,7 +23,7 @@ const About = () => {
         >
           The Guichay Building Company!
         </motion.h1>
-        <div className='w-[120px] h-[6px] bg-yellow-500'></div>
+        <div className='w-[120px] h-[6px] bg-green-800'></div>
         <p className='text-3xl italic text-gray-50 mt-[60px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, magnam?</p>
       </motion.div>
 
@@ -39,7 +39,7 @@ const About = () => {
          saepe hic quos beatae quia perspiciatis?</p>
          <motion.button
          variants={zoomInVariants}
-         className='bg-yellow-500 hover:bg-white hover:text-black px-10 py-3
+         className='bg-green-800 hover:bg-white hover:text-black px-10 py-3
          rounded-lg font-bold text-black'>
           READ MORE 
          </motion.button>

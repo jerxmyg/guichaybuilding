@@ -15,7 +15,7 @@ const Working = () => {
     >
       <motion.h1
       variants={slideUpVariants}
-      className='text-yellow-500 text-2xl'
+      className='text-green-800 text-2xl'
       >
         Step-by-step
       </motion.h1>
@@ -27,7 +27,7 @@ const Working = () => {
       </motion.h1>
       <motion.div
       variants={slideUpVariants}
-      className='w-[120px] h-[6px] bg-yellow-500'></motion.div>
+      className='w-[120px] h-[6px] bg-green-800'></motion.div>
     </motion.div>
 
     <motion.div
@@ -40,9 +40,9 @@ const Working = () => {
      {
       planning.map((item, index) => (
         <div key={index} className='flex flex-col justify-center items-center gap-5 border-2 
-        border-yellow-500 rounded-mg p-6'>
+        border-green-800 rounded-mg p-6'>
           <div>
-          <item.icon className='size-[80px] bg-yellow-500 hover:bg-black
+          <item.icon className='size-[80px] bg-green-800 hover:bg-black
           hover:fill-white p-4 rounded-full cursor-pointer' />
           </div>
           <h1 className='text-2xl font-bold uppercase'>{item.title}</h1>

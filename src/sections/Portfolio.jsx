@@ -15,7 +15,7 @@ const Portfolio = () => {
       >
         <motion.h1
         variants={slideUpVariants}
-        className='text-yellow-500 text-2xl'
+        className='text-green-800 text-2xl'
         >
           Portfolio
         </motion.h1>
@@ -27,7 +27,7 @@ const Portfolio = () => {
         </motion.h1>
         <motion.div
         variants={slideUpVariants}
-        className='w-[120px] h-[6px] bg-yellow-500'></motion.div>
+        className='w-[120px] h-[6px] bg-green-800'></motion.div>
 
       </motion.div>
 

@@ -28,7 +28,7 @@ const Header = () => {
         >
             <h1 className="text-black md:text-4xl text-3xl font-bold font-rubik">
                 Guichay{' '}
-                <span className="text-yellow-500 italic">
+                <span className="text-green-800 italic">
                     Building
                 </span>
             </h1>
@@ -36,7 +36,7 @@ const Header = () => {
                 {navItems.map(({ link, path }) => (
                     <Link
                         key={path}
-                        className="text-black uppercase font-bold cursor-pointer p-3 rounded-full hover:bg-yellow-500 hover:text-black text-[15px]"
+                        className="text-black uppercase font-bold cursor-pointer p-3 rounded-full hover:bg-green-800 hover:text-black text-[15px]"
                         to={path}
                         spy={true}
                         offset={-100}
@@ -48,7 +48,7 @@ const Header = () => {
             </ul>
 
             <button
-                className="bg-yellow-500 hover:bg-black hover:text-white text-black px-10 py-3 rounded-full font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden"
+                className="bg-green-800 hover:bg-black hover:text-white text-black px-10 py-3 rounded-full font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden"
             >
                 Reach Us
             </button>
@@ -60,9 +60,9 @@ const Header = () => {
             >
                 <div>
                     {isMenuOpen ? (
-                        <FaXmark className="text-yellow-500 text-3xl cursor-pointer" />
+                        <FaXmark className="text-green-800 text-3xl cursor-pointer" />
                     ) : (
-                        <FaBars className="text-yellow-500 text-3xl cursor-pointer" />
+                        <FaBars className="text-green-800 text-3xl cursor-pointer" />
                     )}
                 </div>
             </div>
@@ -70,7 +70,7 @@ const Header = () => {
             <div
                 className={`${
                     isMenuOpen ? 'flex' : 'hidden'
-                } w-full h-fit bg-yellow-500 p-4 absolute left-0`}
+                } w-full h-fit bg-green-800 p-4 absolute left-0`}
                 onClick={closeMenu}
             >
                 <ul className="flex flex-col justify-center items-center gap-2 w-full">
