@@ -17,39 +17,39 @@ import client3 from "../src/assets/client3.png";
 export const allservices = [
   {
     icon: building,
-    title: "BUILDING RENOVATION",
+    title: "CUSTOM HOME BUILDING",
     about:
-      "Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "",
   },
   {
     icon: construction,
-    title: "CONSTRUCTION SERVICES",
+    title: "HOME RENOVATIONS",
     about:
-      "Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      " ",
   },
   {
     icon: design,
-    title: "DESIGN & PLANNING",
+    title: "REMODELING",
     about:
-      "Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      " ",
   },
   {
     icon: document,
-    title: "DOCUMENTATION",
+    title: "ADDITIONS",
     about:
-      "Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      " ",
   },
   {
     icon: paint,
-    title: "INTERIOR DESIGN",
+    title: "EXPANSIONS",
     about:
-      "Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      " ",
   },
   {
     icon: support,
-    title: "CUSTOMER SUPPORT",
+    title: "PROJECT CONSULTATIONS",
     about:
-      "Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      " ",
   },
 ];
 
@@ -58,25 +58,25 @@ export const planning = [
     icon: IoDocumentTextSharp,
     title: "planning",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida cursus",
+      " ",
   },
   {
     icon: MdOutlineDesignServices,
     title: "design",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida cursus",
+      " ",
   },
   {
     icon: FaRegBuilding,
     title: "building",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida cursus",
+      " ",
   },
   {
     icon: FaSitemap,
     title: "finish",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida cursus",
+      " ",
   },
 ];
 
@@ -85,21 +85,21 @@ export const clients = [
     image: client1,
     name: "Alex Parker",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida cursus",
+      " ",
     post: "Constructor",
   },
   {
     image: client2,
     name: "Drew James",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida cursus",
+      " ",
     post: "Architect",
   },
   {
     image: client3,
     name: "Sam Peterson",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas gravida cursus",
+      " ",
     post: "Builder",
   },
 ];

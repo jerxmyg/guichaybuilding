@@ -32,10 +32,8 @@ const Hero = () => {
       </motion.h1>
 
       <div className='w-[120px] h-[6px] bg-green-800'></div>
-      <p className='text-white text-[20px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Dolores obcaecati facilis voluptas, officia ullam ipsam culpa debitis 
-      similique! Reiciendis dolor iusto error sunt cum corrupti aspernatur! 
-      Quibusdam architecto corporis dolorum?
+      <p className='text-white text-[20px]'>Welcome to Guichay Building! Since 2002, we’ve been helping families create beautiful and functional homes. Whether you’re planning a new build or updating your current space, we’re here to deliver quality results and bring your vision to life.
+
       </p>
       <motion.div
       intial="hidden"

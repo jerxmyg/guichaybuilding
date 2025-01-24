@@ -27,7 +27,17 @@ const Portfolio = () => {
         </motion.h1>
         <motion.div
         variants={slideUpVariants}
-        className='w-[120px] h-[6px] bg-green-800'></motion.div>
+        className='w-[120px] h-[6px] bg-green-800'>
+          
+        </motion.div>
+        <motion.h1
+        variants={slideUpVariants}
+        className='text-white  text-[20px] font-bold text-center'
+        >
+          Take a look at some of the homes we’ve helped bring to life! From full builds to 
+          renovations and additions, our work showcases the care and dedication we put into 
+          every project. Let our portfolio inspire your next project!
+        </motion.h1>
 
       </motion.div>
 
