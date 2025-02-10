@@ -21,7 +21,7 @@ const About = () => {
         variants={slideUpVariants}
         className='text-white uppercase text-[40px] font-bold'
         >
-          The Guichay Building Company Website!
+          Your vision, our expertise
         </motion.h1>
         <div className='w-[120px] h-[6px] bg-green-800'></div>
         <p className='text-3xl italic text-gray-50 mt-[60px]'>About Us!</p>
@@ -34,12 +34,7 @@ const About = () => {
       className='lg:w-[40%] w-full flex flex-col justify-center items-start gap-6'>
         <p className='text-white text-lg text-justify'>Guichay Building was founded in 2002 with one simple goal: to provide reliable and high-quality construction services for families in our community. With over two decades of experience, we’ve built a reputation for craftsmanship, attention to detail, and treating every project like it’s our own home.
 </p>
-         <motion.button
-         variants={zoomInVariants}
-         className='bg-green-800 hover:bg-white hover:text-black px-10 py-3
-         rounded-lg font-bold text-black'>
-          READ MORE 
-         </motion.button>
+
       </motion.div>
 
     </div>

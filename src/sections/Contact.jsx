@@ -25,11 +25,12 @@ const Contact = () => {
           Got a project in mind? Let’s talk!
         </motion.h1>
         <div className='w-[120px] h-[6px] bg-green-800'></div>
-        <p className='text-3xl text-gray-50 mt-[80px]'>
+        <p className='text-3xl text-gray-50 mt-[60px]'>
         Phone: 631-907-0174
         Email:Guichaybuilding@gmail.com 
+        </p>
+        <p className='text-3xl text-gray-50 mt-[-25px]'>
         Location: PO Box 2620 East Hampton, NY 11937
-
         </p>
         <p className='text-3xl text-gray-50 mt-[60px]'>
         We’re here to answer any questions and provide a free consultation to help you bring your vision to life.

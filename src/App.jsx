@@ -17,7 +17,6 @@ const App = () => {
     <About />
     <Services />
     <Portfolio />
-    <Working />
     <Contact />
     <Footer />
     </>

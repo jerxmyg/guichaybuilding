@@ -1,6 +1,6 @@
 import React from 'react'
 import heroimg from '../assets/heroimg.png'
-import backgroundImage from '../assets/homeimg.webp'
+import backgroundImage from '../assets/2/21.png'
 import { motion } from 'framer-motion'
 import { slideUpVariants, zoomInVariants } from './animation'
 
@@ -35,7 +35,7 @@ const Hero = () => {
       <p className='text-white text-[20px]'>Welcome to Guichay Building! Since 2002, we’ve been helping families create beautiful and functional homes. Whether you’re planning a new build or updating your current space, we’re here to deliver quality results and bring your vision to life.
 
       </p>
-      <motion.div
+     {/* <motion.div
       intial="hidden"
       whileInView="visible"
       variants={zoomInVariants}
@@ -54,7 +54,7 @@ const Hero = () => {
         >
           REACH US
         </motion.button>
-      </motion.div>
+  </motion.div> */}
   </motion.div>
   <div className='w-[40%] flex flex-col justify-end items-end'>
 

@@ -1,6 +1,7 @@
 import { useState, React } from 'react';
 import { FaXmark, FaBars } from 'react-icons/fa6';
 import { Link } from 'react-scroll';
+import logo from '../assets/2/gbuilding.jpg'
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,6 +27,7 @@ const Header = () => {
             className="w-full bg-white justify-between items-center gap-1 lg:px-16
             px-6 py-4 sticky top-0 z-50"
         >
+            
             <h1 className="text-black md:text-4xl text-3xl font-bold font-rubik">
                 Guichay{' '}
                 <span className="text-green-800 italic">
@@ -47,11 +49,6 @@ const Header = () => {
                 ))}
             </ul>
 
-            <button
-                className="bg-green-800 hover:bg-black hover:text-white text-black px-10 py-3 rounded-full font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden"
-            >
-                Reach Us
-            </button>
 
             {/* Mobile menu */}
             <div

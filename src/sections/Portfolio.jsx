@@ -1,5 +1,12 @@
 import React from 'react'
-import project1 from '../assets/project1.jpg'
+import project26 from '../assets/2/26.png'
+import project27 from '../assets/2/27.png'
+import project23 from '../assets/2/23.png'
+import project8 from '../assets/2/8.png'
+import project18 from '../assets/2/18.png'
+import project9 from '../assets/2/9.png'
+import project1 from '../assets/2/1.png'
+import project29 from '../assets/2/29.png'
 import { motion } from 'framer-motion'
 import { slideUpVariants, zoomInVariants } from './animation'
 
@@ -46,14 +53,14 @@ const Portfolio = () => {
         initial="hidden"
         whileinView={slideUpVariants}
         className='w-full m-auto grid lg:grid-cols-4 grid-cols-1'>
+          <img src={project26} alt="project image" className='h-250px w-full' />
+          <img src={project23} alt="project image" className='h-250px w-full' />
+          <img src={project8} alt="project image" className='h-250px w-full' />
+          <img src={project18} alt="project image" className='h-250px w-full' />
+          <img src={project27} alt="project image" className='h-250px w-full' />
+          <img src={project9} alt="project image" className='h-250px w-full' />
           <img src={project1} alt="project image" className='h-250px w-full' />
-          <img src={project1} alt="project image" className='h-250px w-full' />
-          <img src={project1} alt="project image" className='h-250px w-full' />
-          <img src={project1} alt="project image" className='h-250px w-full' />
-          <img src={project1} alt="project image" className='h-250px w-full' />
-          <img src={project1} alt="project image" className='h-250px w-full' />
-          <img src={project1} alt="project image" className='h-250px w-full' />
-          <img src={project1} alt="project image" className='h-250px w-full' />
+          <img src={project29} alt="project image" className='h-250px w-full' />
 
         </motion.div>
     </div>

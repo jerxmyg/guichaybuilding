@@ -13,12 +13,7 @@ const Services = () => {
       className='lg:w-[80%] w-[90px] m-auto py-[60px] flex flex-col  justify-between
       items-center gap-[20px]'
       >
-        <motion.h1
-        variants={slideUpVariants}
-        className='text-green-800 text-2xl'
-        >
-          SPECIAL OFFER
-        </motion.h1>
+
         <motion.h1
         variants={slideUpVariants}
         className='text-black uppercase text-[40px] font-bold text-center'
