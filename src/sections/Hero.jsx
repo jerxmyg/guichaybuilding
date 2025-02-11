@@ -1,6 +1,6 @@
 import React from 'react'
 import heroimg from '../assets/heroimg.png'
-import backgroundImage from '../assets/2/21.png'
+import backgroundImage from '../assets/2/bgimg.png'
 import { motion } from 'framer-motion'
 import { slideUpVariants, zoomInVariants } from './animation'
 
@@ -17,16 +17,16 @@ const Hero = () => {
     lg:gap-8 gap-4'
     >
 
-      <motion.h1
+     {/*  <motion.h1
       variants={slideUpVariants}
       className="text-green-800 text-2xl"
       >
         Guichay Building
-      </motion.h1>
+      </motion.h1> */}
 
       <motion.h1
       variants={slideUpVariants}
-      className='text-white uppercase text-[50px] font-bold'
+      className='text-white uppercase text-[50px] mt-[60px] font-bold'
       >
         We will build your dream property!
       </motion.h1>
